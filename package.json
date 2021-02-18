@@ -1,0 +1,34 @@
+{
+  "name": "fast-word-wrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alepinio/fast-word-wrap.git"
+  },
+  "keywords": [
+    "word",
+    "line",
+    "paragraph",
+    "text",
+    "split",
+    "wrap",
+    "benchmark"
+  ],
+  "author": "alepinio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alepinio/fast-word-wrap/issues"
+  },
+  "homepage": "https://github.com/alepinio/fast-word-wrap#readme",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "word-wrap": "^1.2.3",
+    "wordwrap": "^1.0.0",
+    "wrap-text": "^1.0.9"
+  }
+}
