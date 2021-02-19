@@ -64,7 +64,7 @@ function wrap(str, cpl) {
     lines.push("");
 
     // compute result string
-    result = lines.join("\n");
+    let result = lines.join("\n");
 
     return result;
 }
