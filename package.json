@@ -27,8 +27,11 @@
   "homepage": "https://github.com/alepinio/fast-word-wrap#readme",
   "devDependencies": {
     "ava": "^5.2.0",
+    "tsd": "^0.28.1",
+    "typescript": "^5.0.3",
     "word-wrap": "^1.2.3",
     "wordwrap": "^1.0.0",
     "wrap-text": "^1.0.9"
-  }
+  },
+  "types": "index.d.ts"
 }

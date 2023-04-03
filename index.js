@@ -1,3 +1,4 @@
+/** @type {(s: string, b: number) => string} */
 function wrap(str, cpl) {
     // compute input string length
     const len = str.length;
