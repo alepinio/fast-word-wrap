@@ -2,7 +2,7 @@
 
 a fast and simple node.js package for getting a paragraph wrapped at a fixed line length
 
-`fast-word-wrap` has been proven (see [benchmark](#benchmark)) to be faster than [wordwrap](https://github.com/substack/node-wordwrap) (28x), [wrap-text](https://github.com/IonicaBizau/wrap-text) (10x) and [word-wrap](https://github.com/jonschlinkert/word-wrap) (8x)
+`fast-word-wrap` has been proven (see [benchmark](#benchmark)) to be faster than [wordwrap](https://github.com/substack/node-wordwrap) (31x), [wrap-text](https://github.com/IonicaBizau/wrap-text) (11x) and [word-wrap](https://github.com/jonschlinkert/word-wrap) (10x)
 
 ## toc
 
