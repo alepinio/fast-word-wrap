@@ -68,7 +68,7 @@ outputs
 
 ```console
 
-> fast-word-wrap@1.0.0 test /home/ale/dev/fast-word-wrap
+> fast-word-wrap@1.1.0 test
 > ava --verbose "test/unit.js"
 
 
@@ -111,17 +111,17 @@ outputs in my laptop
 
 ```console
 
-> fast-word-wrap@1.0.0 test /home/ale/dev/fast-word-wrap
-> ava --verbose "test/benchmark.js"
+> fast-word-wrap@1.1.0 test
+> ava --verbose test/benchmark.js
 
 
-  ✔ wrap faster than others (5.6s)
-    ℹ Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+  ✔ wrap faster than others (2.5s)
+    ℹ 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
     ℹ wrapping 10000 times with each package a fragment of "El inmortal" by Jorge Luis Borges...
-    ℹ wordwrap took 3432.02 ms
-    ℹ wrap-text took 1185.77 ms
-    ℹ word-wrap took 948.94 ms
-    ℹ fast-word-wrap took 123.29 ms
+    ℹ wordwrap took 1500.74 ms
+    ℹ wrap-text took 532.84 ms
+    ℹ word-wrap took 506.52 ms
+    ℹ fast-word-wrap took 47.02 ms
   ─
 
   1 test passed
