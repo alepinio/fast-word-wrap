@@ -19,16 +19,16 @@ ax.set_facecolor("#0d1117")
 # data
 packages = ("wordwrap", "wrap-text", "word-wrap", "fast-word-wrap")
 y_pos = np.arange(len(packages))
-times = (3432, 1186, 949, 123)
+times = (1501, 533, 507, 47)
 
 # plot
 ax.barh(y_pos, times, color=["tab:red", "tab:green", "tab:orange", "tab:blue"])
 ax.set_yticks(y_pos)
 ax.set_yticklabels(packages)
 ax.invert_yaxis()  # labels read top-to-bottom
-ax.set_xlim([0, 3750])
+ax.set_xlim([0, 2000])
 ax.set_xlabel("time (ms)")
-ax.set_title("benchmark\nIntel\u00ae Core\u2122 i5-6200U @ 2.30 GHz", pad=15)
+ax.set_title("benchmark\n11th Gen Intel\u00ae Core\u2122 i7-1165G7 @ 2.80GHz", pad=15)
 ax.grid(axis="x", dashes=(5, 5), alpha=0.1)
 ax.set_axisbelow(True)
 
